@@ -38,5 +38,5 @@ class NotReadyError extends ErrorImpl {
 }
 
 class TypeError extends AssertionError {
-  TypeError(String message) : super(message);
+  TypeError(String super.message);
 }
